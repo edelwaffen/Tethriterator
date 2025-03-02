@@ -85,7 +85,7 @@ def main():
 
     start_time = time()
 
-    write_digits_to_file("supercooldigits.txt", num_digits, chunk_size, compress, split, max_file_size_gb)
+    write_digits_to_file("output/supercooldigits.txt", num_digits, chunk_size, compress, split, max_file_size_gb)
 
     elapsed_time = time() - start_time
     print(f"\n[spring_green3]✅ File(s) created in {elapsed_time:.2f} seconds.[/spring_green3]")
